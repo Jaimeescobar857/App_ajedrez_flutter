@@ -101,7 +101,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ALL_BUILD-Debug-ee9373b96e2b9348ffe9.json",
+					"jsonFile" : "target-ALL_BUILD-Debug-bc63225f70cbf3f41f4b.json",
 					"name" : "ALL_BUILD",
 					"projectIndex" : 0
 				},
@@ -122,7 +122,7 @@
 				{
 					"directoryIndex" : 2,
 					"id" : "app_ajedrez::@056c4f61b0156d1d9b06",
-					"jsonFile" : "target-app_ajedrez-Debug-a95331563f2f9c8a3e77.json",
+					"jsonFile" : "target-app_ajedrez-Debug-545820fde5ad4dfc8eab.json",
 					"name" : "app_ajedrez",
 					"projectIndex" : 1
 				},
@@ -136,14 +136,14 @@
 				{
 					"directoryIndex" : 1,
 					"id" : "flutter_wrapper_app::@2bb09fbb03a373b2cb34",
-					"jsonFile" : "target-flutter_wrapper_app-Debug-5f84bdd6a80433f73c2f.json",
+					"jsonFile" : "target-flutter_wrapper_app-Debug-0a6397916ccb5784d77c.json",
 					"name" : "flutter_wrapper_app",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 1,
 					"id" : "flutter_wrapper_plugin::@2bb09fbb03a373b2cb34",
-					"jsonFile" : "target-flutter_wrapper_plugin-Debug-14a5bc659e07c3661a68.json",
+					"jsonFile" : "target-flutter_wrapper_plugin-Debug-3ed7119a8cace49489ab.json",
 					"name" : "flutter_wrapper_plugin",
 					"projectIndex" : 0
 				}
@@ -249,7 +249,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ALL_BUILD-Profile-ee9373b96e2b9348ffe9.json",
+					"jsonFile" : "target-ALL_BUILD-Profile-bc63225f70cbf3f41f4b.json",
 					"name" : "ALL_BUILD",
 					"projectIndex" : 0
 				},
@@ -270,7 +270,7 @@
 				{
 					"directoryIndex" : 2,
 					"id" : "app_ajedrez::@056c4f61b0156d1d9b06",
-					"jsonFile" : "target-app_ajedrez-Profile-ac27a1b7425ac188dd2e.json",
+					"jsonFile" : "target-app_ajedrez-Profile-e3a8a67fee0ce805b1e7.json",
 					"name" : "app_ajedrez",
 					"projectIndex" : 1
 				},
@@ -284,14 +284,14 @@
 				{
 					"directoryIndex" : 1,
 					"id" : "flutter_wrapper_app::@2bb09fbb03a373b2cb34",
-					"jsonFile" : "target-flutter_wrapper_app-Profile-eb1421d8521d13158a91.json",
+					"jsonFile" : "target-flutter_wrapper_app-Profile-f58fcdd892c9c9856112.json",
 					"name" : "flutter_wrapper_app",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 1,
 					"id" : "flutter_wrapper_plugin::@2bb09fbb03a373b2cb34",
-					"jsonFile" : "target-flutter_wrapper_plugin-Profile-af4fde9ece695ea1766b.json",
+					"jsonFile" : "target-flutter_wrapper_plugin-Profile-8e3687b91afe3702ca77.json",
 					"name" : "flutter_wrapper_plugin",
 					"projectIndex" : 0
 				}
@@ -397,7 +397,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ALL_BUILD-Release-ee9373b96e2b9348ffe9.json",
+					"jsonFile" : "target-ALL_BUILD-Release-bc63225f70cbf3f41f4b.json",
 					"name" : "ALL_BUILD",
 					"projectIndex" : 0
 				},
@@ -418,7 +418,7 @@
 				{
 					"directoryIndex" : 2,
 					"id" : "app_ajedrez::@056c4f61b0156d1d9b06",
-					"jsonFile" : "target-app_ajedrez-Release-fcf94eb7c0d7442c6015.json",
+					"jsonFile" : "target-app_ajedrez-Release-bb4912bd31a0f6d4352f.json",
 					"name" : "app_ajedrez",
 					"projectIndex" : 1
 				},
@@ -432,14 +432,14 @@
 				{
 					"directoryIndex" : 1,
 					"id" : "flutter_wrapper_app::@2bb09fbb03a373b2cb34",
-					"jsonFile" : "target-flutter_wrapper_app-Release-04c3db283c7bb784d9e0.json",
+					"jsonFile" : "target-flutter_wrapper_app-Release-57907bc149c68821e055.json",
 					"name" : "flutter_wrapper_app",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 1,
 					"id" : "flutter_wrapper_plugin::@2bb09fbb03a373b2cb34",
-					"jsonFile" : "target-flutter_wrapper_plugin-Release-421bc5721181b72ebec7.json",
+					"jsonFile" : "target-flutter_wrapper_plugin-Release-ecce96c9efe5f0b15dee.json",
 					"name" : "flutter_wrapper_plugin",
 					"projectIndex" : 0
 				}
