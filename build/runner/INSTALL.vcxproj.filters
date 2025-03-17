@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Jaime Escobar\Documents\App_ajedrez_flutter\build\CMakeFiles\ce2fe79a6c738c9557448b5ee93f35d6\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{82252E0E-C480-3013-9320-164C93CC58F7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

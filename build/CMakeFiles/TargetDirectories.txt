@@ -1,0 +1,10 @@
+C:/Users/Jaime Escobar/Documents/App_ajedrez_flutter/build/CMakeFiles/INSTALL.dir
+C:/Users/Jaime Escobar/Documents/App_ajedrez_flutter/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Jaime Escobar/Documents/App_ajedrez_flutter/build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/Jaime Escobar/Documents/App_ajedrez_flutter/build/flutter/CMakeFiles/flutter_wrapper_plugin.dir
+C:/Users/Jaime Escobar/Documents/App_ajedrez_flutter/build/flutter/CMakeFiles/flutter_wrapper_app.dir
+C:/Users/Jaime Escobar/Documents/App_ajedrez_flutter/build/flutter/CMakeFiles/flutter_assemble.dir
+C:/Users/Jaime Escobar/Documents/App_ajedrez_flutter/build/flutter/CMakeFiles/INSTALL.dir
+C:/Users/Jaime Escobar/Documents/App_ajedrez_flutter/build/runner/CMakeFiles/app_ajedrez.dir
+C:/Users/Jaime Escobar/Documents/App_ajedrez_flutter/build/runner/CMakeFiles/INSTALL.dir
+C:/Users/Jaime Escobar/Documents/App_ajedrez_flutter/build/runner/CMakeFiles/ALL_BUILD.dir

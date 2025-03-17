@@ -1,0 +1,900 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The system is: Windows - 10.0.26100 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Versi├│n de MSBuild 17.13.19+0d9f5a35a para .NET Framework
+      Compilaci├│n iniciada a las 11/03/2025 07:00:52 p. m..
+      
+      Proyecto "C:\\Users\\Jaime Escobar\\Documents\\App_ajedrez_flutter\\build\\CMakeFiles\\3.30.5-msvc23\\CompilerIdCXX\\CompilerIdCXX.vcxproj" en nodo 1 (destinos predeterminados).
+      PrepareForBuild:
+        Creando directorio "Debug\\".
+        La salida estructurada est├í habilitada. El formato del diagn├│stico del compilador reflejar├í la jerarqu├¡a de errores. Consulte https://aka.ms/cpp/structured-output para obtener m├ís detalles.
+        Creando directorio "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Se crear├í "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" porque se especific├│ "AlwaysCreate".
+        Aplicando tarea Touch a "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\Jaime Escobar\\Documents\\App_ajedrez_flutter\\build\\CMakeFiles\\3.30.5-msvc23\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Se eliminar├í el archivo "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Aplicando tarea Touch a "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Compilaci├│n del proyecto terminada "C:\\Users\\Jaime Escobar\\Documents\\App_ajedrez_flutter\\build\\CMakeFiles\\3.30.5-msvc23\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (destinos predeterminados).
+      
+      Compilaci├│n correcta.
+          0 Advertencia(s)
+          0 Errores
+      
+      Tiempo transcurrido 00:00:01.60
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/Jaime Escobar/Documents/App_ajedrez_flutter/build/CMakeFiles/3.30.5-msvc23/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/Jaime Escobar/Documents/App_ajedrez_flutter/build/CMakeFiles/CMakeScratch/TryCompile-jqavlq"
+      binary: "C:/Users/Jaime Escobar/Documents/App_ajedrez_flutter/build/CMakeFiles/CMakeScratch/TryCompile-jqavlq"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Jaime Escobar/Documents/App_ajedrez_flutter/build/CMakeFiles/CMakeScratch/TryCompile-jqavlq'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_3f1ca.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Versi├│n de MSBuild 17.13.19+0d9f5a35a para .NET Framework
+        Compilaci├│n iniciada a las 11/03/2025 07:00:54 p. m..
+        
+        Proyecto "C:\\Users\\Jaime Escobar\\Documents\\App_ajedrez_flutter\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jqavlq\\cmTC_3f1ca.vcxproj" en nodo 1 (destinos predeterminados).
+        PrepareForBuild:
+          Creando directorio "cmTC_3f1ca.dir\\Debug\\".
+          La salida estructurada est├í habilitada. El formato del diagn├│stico del compilador reflejar├í la jerarqu├¡a de errores. Consulte https://aka.ms/cpp/structured-output para obtener m├ís detalles.
+          Creando directorio "C:\\Users\\Jaime Escobar\\Documents\\App_ajedrez_flutter\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jqavlq\\Debug\\".
+          Creando directorio "cmTC_3f1ca.dir\\Debug\\cmTC_3f1ca.tlog\\".
+        InitializeBuildStatus:
+          Se crear├í "cmTC_3f1ca.dir\\Debug\\cmTC_3f1ca.tlog\\unsuccessfulbuild" porque se especific├│ "AlwaysCreate".
+          Aplicando tarea Touch a "cmTC_3f1ca.dir\\Debug\\cmTC_3f1ca.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_3f1ca.dir\\Debug\\\\" /Fd"cmTC_3f1ca.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
+          Compilador de optimizaci├│n de C/C++ de Microsoft (R) versi├│n 19.43.34809 para x64
+          (C) Microsoft Corporation. Todos los derechos reservados.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_3f1ca.dir\\Debug\\\\" /Fd"cmTC_3f1ca.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Jaime Escobar\\Documents\\App_ajedrez_flutter\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jqavlq\\Debug\\cmTC_3f1ca.exe" /INCREMENTAL /ILK:"cmTC_3f1ca.dir\\Debug\\cmTC_3f1ca.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Jaime Escobar/Documents/App_ajedrez_flutter/build/CMakeFiles/CMakeScratch/TryCompile-jqavlq/Debug/cmTC_3f1ca.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Jaime Escobar/Documents/App_ajedrez_flutter/build/CMakeFiles/CMakeScratch/TryCompile-jqavlq/Debug/cmTC_3f1ca.lib" /MACHINE:X64  /machine:x64 cmTC_3f1ca.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_3f1ca.vcxproj -> C:\\Users\\Jaime Escobar\\Documents\\App_ajedrez_flutter\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jqavlq\\Debug\\cmTC_3f1ca.exe
+        FinalizeBuildStatus:
+          Se eliminar├í el archivo "cmTC_3f1ca.dir\\Debug\\cmTC_3f1ca.tlog\\unsuccessfulbuild".
+          Aplicando tarea Touch a "cmTC_3f1ca.dir\\Debug\\cmTC_3f1ca.tlog\\cmTC_3f1ca.lastbuildstate".
+        Compilaci├│n del proyecto terminada "C:\\Users\\Jaime Escobar\\Documents\\App_ajedrez_flutter\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jqavlq\\cmTC_3f1ca.vcxproj" (destinos predeterminados).
+        
+        Compilaci├│n correcta.
+            0 Advertencia(s)
+            0 Errores
+        
+        Tiempo transcurrido 00:00:01.56
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.43.34808/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.43.34808/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.43.34809.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The system is: Windows - 10.0.26100 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Versi├│n de MSBuild 17.13.19+0d9f5a35a para .NET Framework
+      Compilaci├│n iniciada a las 12/03/2025 04:23:35 a. m..
+      
+      Proyecto "C:\\Users\\Jaime Escobar\\Documents\\App_ajedrez_flutter\\build\\CMakeFiles\\3.30.5-msvc23\\CompilerIdCXX\\CompilerIdCXX.vcxproj" en nodo 1 (destinos predeterminados).
+      PrepareForBuild:
+        Creando directorio "Debug\\".
+        La salida estructurada est├í habilitada. El formato del diagn├│stico del compilador reflejar├í la jerarqu├¡a de errores. Consulte https://aka.ms/cpp/structured-output para obtener m├ís detalles.
+        Creando directorio "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Se crear├í "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" porque se especific├│ "AlwaysCreate".
+        Aplicando tarea Touch a "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\Jaime Escobar\\Documents\\App_ajedrez_flutter\\build\\CMakeFiles\\3.30.5-msvc23\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Se eliminar├í el archivo "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Aplicando tarea Touch a "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Compilaci├│n del proyecto terminada "C:\\Users\\Jaime Escobar\\Documents\\App_ajedrez_flutter\\build\\CMakeFiles\\3.30.5-msvc23\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (destinos predeterminados).
+      
+      Compilaci├│n correcta.
+          0 Advertencia(s)
+          0 Errores
+      
+      Tiempo transcurrido 00:00:01.99
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/Jaime Escobar/Documents/App_ajedrez_flutter/build/CMakeFiles/3.30.5-msvc23/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/Jaime Escobar/Documents/App_ajedrez_flutter/build/CMakeFiles/CMakeScratch/TryCompile-1tki5d"
+      binary: "C:/Users/Jaime Escobar/Documents/App_ajedrez_flutter/build/CMakeFiles/CMakeScratch/TryCompile-1tki5d"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Jaime Escobar/Documents/App_ajedrez_flutter/build/CMakeFiles/CMakeScratch/TryCompile-1tki5d'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_b33ba.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Versi├│n de MSBuild 17.13.19+0d9f5a35a para .NET Framework
+        Compilaci├│n iniciada a las 12/03/2025 04:23:38 a. m..
+        
+        Proyecto "C:\\Users\\Jaime Escobar\\Documents\\App_ajedrez_flutter\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1tki5d\\cmTC_b33ba.vcxproj" en nodo 1 (destinos predeterminados).
+        PrepareForBuild:
+          Creando directorio "cmTC_b33ba.dir\\Debug\\".
+          La salida estructurada est├í habilitada. El formato del diagn├│stico del compilador reflejar├í la jerarqu├¡a de errores. Consulte https://aka.ms/cpp/structured-output para obtener m├ís detalles.
+          Creando directorio "C:\\Users\\Jaime Escobar\\Documents\\App_ajedrez_flutter\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1tki5d\\Debug\\".
+          Creando directorio "cmTC_b33ba.dir\\Debug\\cmTC_b33ba.tlog\\".
+        InitializeBuildStatus:
+          Se crear├í "cmTC_b33ba.dir\\Debug\\cmTC_b33ba.tlog\\unsuccessfulbuild" porque se especific├│ "AlwaysCreate".
+          Aplicando tarea Touch a "cmTC_b33ba.dir\\Debug\\cmTC_b33ba.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_b33ba.dir\\Debug\\\\" /Fd"cmTC_b33ba.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
+          Compilador de optimizaci├│n de C/C++ de Microsoft (R) versi├│n 19.43.34809 para x64
+          (C) Microsoft Corporation. Todos los derechos reservados.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_b33ba.dir\\Debug\\\\" /Fd"cmTC_b33ba.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Jaime Escobar\\Documents\\App_ajedrez_flutter\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1tki5d\\Debug\\cmTC_b33ba.exe" /INCREMENTAL /ILK:"cmTC_b33ba.dir\\Debug\\cmTC_b33ba.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Jaime Escobar/Documents/App_ajedrez_flutter/build/CMakeFiles/CMakeScratch/TryCompile-1tki5d/Debug/cmTC_b33ba.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Jaime Escobar/Documents/App_ajedrez_flutter/build/CMakeFiles/CMakeScratch/TryCompile-1tki5d/Debug/cmTC_b33ba.lib" /MACHINE:X64  /machine:x64 cmTC_b33ba.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_b33ba.vcxproj -> C:\\Users\\Jaime Escobar\\Documents\\App_ajedrez_flutter\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1tki5d\\Debug\\cmTC_b33ba.exe
+        FinalizeBuildStatus:
+          Se eliminar├í el archivo "cmTC_b33ba.dir\\Debug\\cmTC_b33ba.tlog\\unsuccessfulbuild".
+          Aplicando tarea Touch a "cmTC_b33ba.dir\\Debug\\cmTC_b33ba.tlog\\cmTC_b33ba.lastbuildstate".
+        Compilaci├│n del proyecto terminada "C:\\Users\\Jaime Escobar\\Documents\\App_ajedrez_flutter\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1tki5d\\cmTC_b33ba.vcxproj" (destinos predeterminados).
+        
+        Compilaci├│n correcta.
+            0 Advertencia(s)
+            0 Errores
+        
+        Tiempo transcurrido 00:00:01.69
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.43.34808/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.43.34808/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.43.34809.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The system is: Windows - 10.0.26100 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Versi├│n de MSBuild 17.13.19+0d9f5a35a para .NET Framework
+      Compilaci├│n iniciada a las 12/03/2025 04:29:38 a. m..
+      
+      Proyecto "C:\\Users\\Jaime Escobar\\Documents\\App_ajedrez_flutter\\build\\CMakeFiles\\3.30.5-msvc23\\CompilerIdCXX\\CompilerIdCXX.vcxproj" en nodo 1 (destinos predeterminados).
+      PrepareForBuild:
+        Creando directorio "Debug\\".
+        La salida estructurada est├í habilitada. El formato del diagn├│stico del compilador reflejar├í la jerarqu├¡a de errores. Consulte https://aka.ms/cpp/structured-output para obtener m├ís detalles.
+        Creando directorio "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Se crear├í "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" porque se especific├│ "AlwaysCreate".
+        Aplicando tarea Touch a "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\Jaime Escobar\\Documents\\App_ajedrez_flutter\\build\\CMakeFiles\\3.30.5-msvc23\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Se eliminar├í el archivo "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Aplicando tarea Touch a "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Compilaci├│n del proyecto terminada "C:\\Users\\Jaime Escobar\\Documents\\App_ajedrez_flutter\\build\\CMakeFiles\\3.30.5-msvc23\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (destinos predeterminados).
+      
+      Compilaci├│n correcta.
+          0 Advertencia(s)
+          0 Errores
+      
+      Tiempo transcurrido 00:00:01.58
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/Jaime Escobar/Documents/App_ajedrez_flutter/build/CMakeFiles/3.30.5-msvc23/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/Jaime Escobar/Documents/App_ajedrez_flutter/build/CMakeFiles/CMakeScratch/TryCompile-7cwo6q"
+      binary: "C:/Users/Jaime Escobar/Documents/App_ajedrez_flutter/build/CMakeFiles/CMakeScratch/TryCompile-7cwo6q"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Jaime Escobar/Documents/App_ajedrez_flutter/build/CMakeFiles/CMakeScratch/TryCompile-7cwo6q'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_5f13e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Versi├│n de MSBuild 17.13.19+0d9f5a35a para .NET Framework
+        Compilaci├│n iniciada a las 12/03/2025 04:29:41 a. m..
+        
+        Proyecto "C:\\Users\\Jaime Escobar\\Documents\\App_ajedrez_flutter\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7cwo6q\\cmTC_5f13e.vcxproj" en nodo 1 (destinos predeterminados).
+        PrepareForBuild:
+          Creando directorio "cmTC_5f13e.dir\\Debug\\".
+          La salida estructurada est├í habilitada. El formato del diagn├│stico del compilador reflejar├í la jerarqu├¡a de errores. Consulte https://aka.ms/cpp/structured-output para obtener m├ís detalles.
+          Creando directorio "C:\\Users\\Jaime Escobar\\Documents\\App_ajedrez_flutter\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7cwo6q\\Debug\\".
+          Creando directorio "cmTC_5f13e.dir\\Debug\\cmTC_5f13e.tlog\\".
+        InitializeBuildStatus:
+          Se crear├í "cmTC_5f13e.dir\\Debug\\cmTC_5f13e.tlog\\unsuccessfulbuild" porque se especific├│ "AlwaysCreate".
+          Aplicando tarea Touch a "cmTC_5f13e.dir\\Debug\\cmTC_5f13e.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_5f13e.dir\\Debug\\\\" /Fd"cmTC_5f13e.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
+          Compilador de optimizaci├│n de C/C++ de Microsoft (R) versi├│n 19.43.34809 para x64
+          (C) Microsoft Corporation. Todos los derechos reservados.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_5f13e.dir\\Debug\\\\" /Fd"cmTC_5f13e.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Jaime Escobar\\Documents\\App_ajedrez_flutter\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7cwo6q\\Debug\\cmTC_5f13e.exe" /INCREMENTAL /ILK:"cmTC_5f13e.dir\\Debug\\cmTC_5f13e.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Jaime Escobar/Documents/App_ajedrez_flutter/build/CMakeFiles/CMakeScratch/TryCompile-7cwo6q/Debug/cmTC_5f13e.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Jaime Escobar/Documents/App_ajedrez_flutter/build/CMakeFiles/CMakeScratch/TryCompile-7cwo6q/Debug/cmTC_5f13e.lib" /MACHINE:X64  /machine:x64 cmTC_5f13e.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_5f13e.vcxproj -> C:\\Users\\Jaime Escobar\\Documents\\App_ajedrez_flutter\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7cwo6q\\Debug\\cmTC_5f13e.exe
+        FinalizeBuildStatus:
+          Se eliminar├í el archivo "cmTC_5f13e.dir\\Debug\\cmTC_5f13e.tlog\\unsuccessfulbuild".
+          Aplicando tarea Touch a "cmTC_5f13e.dir\\Debug\\cmTC_5f13e.tlog\\cmTC_5f13e.lastbuildstate".
+        Compilaci├│n del proyecto terminada "C:\\Users\\Jaime Escobar\\Documents\\App_ajedrez_flutter\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7cwo6q\\cmTC_5f13e.vcxproj" (destinos predeterminados).
+        
+        Compilaci├│n correcta.
+            0 Advertencia(s)
+            0 Errores
+        
+        Tiempo transcurrido 00:00:01.57
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.43.34808/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.43.34808/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.43.34809.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The system is: Windows - 10.0.26100 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Versi├│n de MSBuild 17.13.19+0d9f5a35a para .NET Framework
+      Compilaci├│n iniciada a las 12/03/2025 05:22:24 a. m..
+      
+      Proyecto "C:\\Users\\Jaime Escobar\\Documents\\App_ajedrez_flutter\\build\\CMakeFiles\\3.30.5-msvc23\\CompilerIdCXX\\CompilerIdCXX.vcxproj" en nodo 1 (destinos predeterminados).
+      PrepareForBuild:
+        Creando directorio "Debug\\".
+        La salida estructurada est├í habilitada. El formato del diagn├│stico del compilador reflejar├í la jerarqu├¡a de errores. Consulte https://aka.ms/cpp/structured-output para obtener m├ís detalles.
+        Creando directorio "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Se crear├í "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" porque se especific├│ "AlwaysCreate".
+        Aplicando tarea Touch a "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\Jaime Escobar\\Documents\\App_ajedrez_flutter\\build\\CMakeFiles\\3.30.5-msvc23\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Se eliminar├í el archivo "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Aplicando tarea Touch a "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Compilaci├│n del proyecto terminada "C:\\Users\\Jaime Escobar\\Documents\\App_ajedrez_flutter\\build\\CMakeFiles\\3.30.5-msvc23\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (destinos predeterminados).
+      
+      Compilaci├│n correcta.
+          0 Advertencia(s)
+          0 Errores
+      
+      Tiempo transcurrido 00:00:01.77
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/Jaime Escobar/Documents/App_ajedrez_flutter/build/CMakeFiles/3.30.5-msvc23/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/Jaime Escobar/Documents/App_ajedrez_flutter/build/CMakeFiles/CMakeScratch/TryCompile-hyvgz4"
+      binary: "C:/Users/Jaime Escobar/Documents/App_ajedrez_flutter/build/CMakeFiles/CMakeScratch/TryCompile-hyvgz4"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Jaime Escobar/Documents/App_ajedrez_flutter/build/CMakeFiles/CMakeScratch/TryCompile-hyvgz4'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_ff9e2.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Versi├│n de MSBuild 17.13.19+0d9f5a35a para .NET Framework
+        Compilaci├│n iniciada a las 12/03/2025 05:22:27 a. m..
+        
+        Proyecto "C:\\Users\\Jaime Escobar\\Documents\\App_ajedrez_flutter\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hyvgz4\\cmTC_ff9e2.vcxproj" en nodo 1 (destinos predeterminados).
+        PrepareForBuild:
+          Creando directorio "cmTC_ff9e2.dir\\Debug\\".
+          La salida estructurada est├í habilitada. El formato del diagn├│stico del compilador reflejar├í la jerarqu├¡a de errores. Consulte https://aka.ms/cpp/structured-output para obtener m├ís detalles.
+          Creando directorio "C:\\Users\\Jaime Escobar\\Documents\\App_ajedrez_flutter\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hyvgz4\\Debug\\".
+          Creando directorio "cmTC_ff9e2.dir\\Debug\\cmTC_ff9e2.tlog\\".
+        InitializeBuildStatus:
+          Se crear├í "cmTC_ff9e2.dir\\Debug\\cmTC_ff9e2.tlog\\unsuccessfulbuild" porque se especific├│ "AlwaysCreate".
+          Aplicando tarea Touch a "cmTC_ff9e2.dir\\Debug\\cmTC_ff9e2.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_ff9e2.dir\\Debug\\\\" /Fd"cmTC_ff9e2.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
+          Compilador de optimizaci├│n de C/C++ de Microsoft (R) versi├│n 19.43.34809 para x64
+          (C) Microsoft Corporation. Todos los derechos reservados.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_ff9e2.dir\\Debug\\\\" /Fd"cmTC_ff9e2.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Jaime Escobar\\Documents\\App_ajedrez_flutter\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hyvgz4\\Debug\\cmTC_ff9e2.exe" /INCREMENTAL /ILK:"cmTC_ff9e2.dir\\Debug\\cmTC_ff9e2.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Jaime Escobar/Documents/App_ajedrez_flutter/build/CMakeFiles/CMakeScratch/TryCompile-hyvgz4/Debug/cmTC_ff9e2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Jaime Escobar/Documents/App_ajedrez_flutter/build/CMakeFiles/CMakeScratch/TryCompile-hyvgz4/Debug/cmTC_ff9e2.lib" /MACHINE:X64  /machine:x64 cmTC_ff9e2.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_ff9e2.vcxproj -> C:\\Users\\Jaime Escobar\\Documents\\App_ajedrez_flutter\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hyvgz4\\Debug\\cmTC_ff9e2.exe
+        FinalizeBuildStatus:
+          Se eliminar├í el archivo "cmTC_ff9e2.dir\\Debug\\cmTC_ff9e2.tlog\\unsuccessfulbuild".
+          Aplicando tarea Touch a "cmTC_ff9e2.dir\\Debug\\cmTC_ff9e2.tlog\\cmTC_ff9e2.lastbuildstate".
+        Compilaci├│n del proyecto terminada "C:\\Users\\Jaime Escobar\\Documents\\App_ajedrez_flutter\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hyvgz4\\cmTC_ff9e2.vcxproj" (destinos predeterminados).
+        
+        Compilaci├│n correcta.
+            0 Advertencia(s)
+            0 Errores
+        
+        Tiempo transcurrido 00:00:01.51
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.43.34808/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.43.34808/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.43.34809.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The system is: Windows - 10.0.26100 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Versi├│n de MSBuild 17.13.19+0d9f5a35a para .NET Framework
+      Compilaci├│n iniciada a las 12/03/2025 07:12:29 a. m..
+      
+      Proyecto "C:\\Users\\Jaime Escobar\\Documents\\App_ajedrez_flutter\\build\\CMakeFiles\\3.30.5-msvc23\\CompilerIdCXX\\CompilerIdCXX.vcxproj" en nodo 1 (destinos predeterminados).
+      PrepareForBuild:
+        Creando directorio "Debug\\".
+        La salida estructurada est├í habilitada. El formato del diagn├│stico del compilador reflejar├í la jerarqu├¡a de errores. Consulte https://aka.ms/cpp/structured-output para obtener m├ís detalles.
+        Creando directorio "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Se crear├í "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" porque se especific├│ "AlwaysCreate".
+        Aplicando tarea Touch a "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\Jaime Escobar\\Documents\\App_ajedrez_flutter\\build\\CMakeFiles\\3.30.5-msvc23\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Se eliminar├í el archivo "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Aplicando tarea Touch a "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Compilaci├│n del proyecto terminada "C:\\Users\\Jaime Escobar\\Documents\\App_ajedrez_flutter\\build\\CMakeFiles\\3.30.5-msvc23\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (destinos predeterminados).
+      
+      Compilaci├│n correcta.
+          0 Advertencia(s)
+          0 Errores
+      
+      Tiempo transcurrido 00:00:01.71
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/Jaime Escobar/Documents/App_ajedrez_flutter/build/CMakeFiles/3.30.5-msvc23/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/Jaime Escobar/Documents/App_ajedrez_flutter/build/CMakeFiles/CMakeScratch/TryCompile-ih9n08"
+      binary: "C:/Users/Jaime Escobar/Documents/App_ajedrez_flutter/build/CMakeFiles/CMakeScratch/TryCompile-ih9n08"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Jaime Escobar/Documents/App_ajedrez_flutter/build/CMakeFiles/CMakeScratch/TryCompile-ih9n08'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_74ab3.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Versi├│n de MSBuild 17.13.19+0d9f5a35a para .NET Framework
+        Compilaci├│n iniciada a las 12/03/2025 07:12:31 a. m..
+        
+        Proyecto "C:\\Users\\Jaime Escobar\\Documents\\App_ajedrez_flutter\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ih9n08\\cmTC_74ab3.vcxproj" en nodo 1 (destinos predeterminados).
+        PrepareForBuild:
+          Creando directorio "cmTC_74ab3.dir\\Debug\\".
+          La salida estructurada est├í habilitada. El formato del diagn├│stico del compilador reflejar├í la jerarqu├¡a de errores. Consulte https://aka.ms/cpp/structured-output para obtener m├ís detalles.
+          Creando directorio "C:\\Users\\Jaime Escobar\\Documents\\App_ajedrez_flutter\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ih9n08\\Debug\\".
+          Creando directorio "cmTC_74ab3.dir\\Debug\\cmTC_74ab3.tlog\\".
+        InitializeBuildStatus:
+          Se crear├í "cmTC_74ab3.dir\\Debug\\cmTC_74ab3.tlog\\unsuccessfulbuild" porque se especific├│ "AlwaysCreate".
+          Aplicando tarea Touch a "cmTC_74ab3.dir\\Debug\\cmTC_74ab3.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_74ab3.dir\\Debug\\\\" /Fd"cmTC_74ab3.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
+          Compilador de optimizaci├│n de C/C++ de Microsoft (R) versi├│n 19.43.34809 para x64
+          (C) Microsoft Corporation. Todos los derechos reservados.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_74ab3.dir\\Debug\\\\" /Fd"cmTC_74ab3.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Jaime Escobar\\Documents\\App_ajedrez_flutter\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ih9n08\\Debug\\cmTC_74ab3.exe" /INCREMENTAL /ILK:"cmTC_74ab3.dir\\Debug\\cmTC_74ab3.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Jaime Escobar/Documents/App_ajedrez_flutter/build/CMakeFiles/CMakeScratch/TryCompile-ih9n08/Debug/cmTC_74ab3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Jaime Escobar/Documents/App_ajedrez_flutter/build/CMakeFiles/CMakeScratch/TryCompile-ih9n08/Debug/cmTC_74ab3.lib" /MACHINE:X64  /machine:x64 cmTC_74ab3.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_74ab3.vcxproj -> C:\\Users\\Jaime Escobar\\Documents\\App_ajedrez_flutter\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ih9n08\\Debug\\cmTC_74ab3.exe
+        FinalizeBuildStatus:
+          Se eliminar├í el archivo "cmTC_74ab3.dir\\Debug\\cmTC_74ab3.tlog\\unsuccessfulbuild".
+          Aplicando tarea Touch a "cmTC_74ab3.dir\\Debug\\cmTC_74ab3.tlog\\cmTC_74ab3.lastbuildstate".
+        Compilaci├│n del proyecto terminada "C:\\Users\\Jaime Escobar\\Documents\\App_ajedrez_flutter\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ih9n08\\cmTC_74ab3.vcxproj" (destinos predeterminados).
+        
+        Compilaci├│n correcta.
+            0 Advertencia(s)
+            0 Errores
+        
+        Tiempo transcurrido 00:00:01.86
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.43.34808/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.43.34808/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.43.34809.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The system is: Windows - 10.0.26100 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Versi├│n de MSBuild 17.13.19+0d9f5a35a para .NET Framework
+      Compilaci├│n iniciada a las 17/03/2025 02:06:23 p. m..
+      
+      Proyecto "C:\\Users\\Jaime Escobar\\Documents\\App_ajedrez_flutter\\build\\CMakeFiles\\3.30.5-msvc23\\CompilerIdCXX\\CompilerIdCXX.vcxproj" en nodo 1 (destinos predeterminados).
+      PrepareForBuild:
+        Creando directorio "Debug\\".
+        La salida estructurada est├í habilitada. El formato del diagn├│stico del compilador reflejar├í la jerarqu├¡a de errores. Consulte https://aka.ms/cpp/structured-output para obtener m├ís detalles.
+        Creando directorio "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Se crear├í "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" porque se especific├│ "AlwaysCreate".
+        Aplicando tarea Touch a "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\Jaime Escobar\\Documents\\App_ajedrez_flutter\\build\\CMakeFiles\\3.30.5-msvc23\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Se eliminar├í el archivo "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Aplicando tarea Touch a "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Compilaci├│n del proyecto terminada "C:\\Users\\Jaime Escobar\\Documents\\App_ajedrez_flutter\\build\\CMakeFiles\\3.30.5-msvc23\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (destinos predeterminados).
+      
+      Compilaci├│n correcta.
+          0 Advertencia(s)
+          0 Errores
+      
+      Tiempo transcurrido 00:00:01.77
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/Jaime Escobar/Documents/App_ajedrez_flutter/build/CMakeFiles/3.30.5-msvc23/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/Jaime Escobar/Documents/App_ajedrez_flutter/build/CMakeFiles/CMakeScratch/TryCompile-dov883"
+      binary: "C:/Users/Jaime Escobar/Documents/App_ajedrez_flutter/build/CMakeFiles/CMakeScratch/TryCompile-dov883"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Jaime Escobar/Documents/App_ajedrez_flutter/build/CMakeFiles/CMakeScratch/TryCompile-dov883'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_2a2e2.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Versi├│n de MSBuild 17.13.19+0d9f5a35a para .NET Framework
+        Compilaci├│n iniciada a las 17/03/2025 02:06:25 p. m..
+        
+        Proyecto "C:\\Users\\Jaime Escobar\\Documents\\App_ajedrez_flutter\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dov883\\cmTC_2a2e2.vcxproj" en nodo 1 (destinos predeterminados).
+        PrepareForBuild:
+          Creando directorio "cmTC_2a2e2.dir\\Debug\\".
+          La salida estructurada est├í habilitada. El formato del diagn├│stico del compilador reflejar├í la jerarqu├¡a de errores. Consulte https://aka.ms/cpp/structured-output para obtener m├ís detalles.
+          Creando directorio "C:\\Users\\Jaime Escobar\\Documents\\App_ajedrez_flutter\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dov883\\Debug\\".
+          Creando directorio "cmTC_2a2e2.dir\\Debug\\cmTC_2a2e2.tlog\\".
+        InitializeBuildStatus:
+          Se crear├í "cmTC_2a2e2.dir\\Debug\\cmTC_2a2e2.tlog\\unsuccessfulbuild" porque se especific├│ "AlwaysCreate".
+          Aplicando tarea Touch a "cmTC_2a2e2.dir\\Debug\\cmTC_2a2e2.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_2a2e2.dir\\Debug\\\\" /Fd"cmTC_2a2e2.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
+          Compilador de optimizaci├│n de C/C++ de Microsoft (R) versi├│n 19.43.34809 para x64
+          (C) Microsoft Corporation. Todos los derechos reservados.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_2a2e2.dir\\Debug\\\\" /Fd"cmTC_2a2e2.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Jaime Escobar\\Documents\\App_ajedrez_flutter\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dov883\\Debug\\cmTC_2a2e2.exe" /INCREMENTAL /ILK:"cmTC_2a2e2.dir\\Debug\\cmTC_2a2e2.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Jaime Escobar/Documents/App_ajedrez_flutter/build/CMakeFiles/CMakeScratch/TryCompile-dov883/Debug/cmTC_2a2e2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Jaime Escobar/Documents/App_ajedrez_flutter/build/CMakeFiles/CMakeScratch/TryCompile-dov883/Debug/cmTC_2a2e2.lib" /MACHINE:X64  /machine:x64 cmTC_2a2e2.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_2a2e2.vcxproj -> C:\\Users\\Jaime Escobar\\Documents\\App_ajedrez_flutter\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dov883\\Debug\\cmTC_2a2e2.exe
+        FinalizeBuildStatus:
+          Se eliminar├í el archivo "cmTC_2a2e2.dir\\Debug\\cmTC_2a2e2.tlog\\unsuccessfulbuild".
+          Aplicando tarea Touch a "cmTC_2a2e2.dir\\Debug\\cmTC_2a2e2.tlog\\cmTC_2a2e2.lastbuildstate".
+        Compilaci├│n del proyecto terminada "C:\\Users\\Jaime Escobar\\Documents\\App_ajedrez_flutter\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dov883\\cmTC_2a2e2.vcxproj" (destinos predeterminados).
+        
+        Compilaci├│n correcta.
+            0 Advertencia(s)
+            0 Errores
+        
+        Tiempo transcurrido 00:00:01.02
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.43.34808/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.43.34808/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.43.34809.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+...
