@@ -1,6 +1,6 @@
-enum ChessPieceType { pawn, rook, knight, bishop, queen, king}
+enum ChessPieceType {pawn, rook, knight, bishop, queen, king}
 
-class ChessPiece {
+class ChessPiece{
   final ChessPieceType type;
   final bool isWhite;
   final String imagePath;

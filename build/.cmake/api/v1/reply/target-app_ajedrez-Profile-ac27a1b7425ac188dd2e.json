@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "runner/Release/app_ajedrez.exe"
+			"path" : "runner/Profile/app_ajedrez.exe"
 		},
 		{
-			"path" : "runner/Release/app_ajedrez.pdb"
+			"path" : "runner/Profile/app_ajedrez.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -325,15 +325,15 @@
 	"dependencies" : 
 	[
 		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		},
+		{
 			"backtrace" : 4,
 			"id" : "flutter_wrapper_app::@2bb09fbb03a373b2cb34"
 		},
 		{
 			"backtrace" : 8,
 			"id" : "flutter_assemble::@2bb09fbb03a373b2cb34"
-		},
-		{
-			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
 		}
 	],
 	"id" : "app_ajedrez::@056c4f61b0156d1d9b06",
@@ -343,7 +343,7 @@
 		[
 			{
 				"backtrace" : 3,
-				"path" : "C:/Users/Jaime Escobar/Documents/App_ajedrez_flutter/build/runner/Release"
+				"path" : "C:/Users/Jaime Escobar/Documents/App_ajedrez_flutter/build/runner/Profile"
 			}
 		],
 		"prefix" : 
@@ -365,7 +365,7 @@
 			},
 			{
 				"backtrace" : 4,
-				"fragment" : "..\\flutter\\Release\\flutter_wrapper_app.lib",
+				"fragment" : "..\\flutter\\Profile\\flutter_wrapper_app.lib",
 				"role" : "libraries"
 			},
 			{

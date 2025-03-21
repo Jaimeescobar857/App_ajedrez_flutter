@@ -5,7 +5,7 @@
 		"commands" : [],
 		"files" : 
 		[
-			"runner/CMakeLists.txt"
+			"CMakeLists.txt"
 		],
 		"nodes" : 
 		[
@@ -17,19 +17,25 @@
 	"dependencies" : 
 	[
 		{
+			"id" : "app_ajedrez::@056c4f61b0156d1d9b06"
+		},
+		{
 			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
 		},
 		{
-			"id" : "app_ajedrez::@056c4f61b0156d1d9b06"
+			"id" : "flutter_wrapper_app::@2bb09fbb03a373b2cb34"
+		},
+		{
+			"id" : "flutter_wrapper_plugin::@2bb09fbb03a373b2cb34"
 		}
 	],
-	"id" : "ALL_BUILD::@056c4f61b0156d1d9b06",
+	"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
 	"isGeneratorProvided" : true,
 	"name" : "ALL_BUILD",
 	"paths" : 
 	{
-		"build" : "runner",
-		"source" : "runner"
+		"build" : ".",
+		"source" : "."
 	},
 	"sources" : [],
 	"type" : "UTILITY"

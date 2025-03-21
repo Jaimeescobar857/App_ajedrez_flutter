@@ -7,7 +7,7 @@ class DeadPiece extends StatelessWidget {
     super.key,
     required this.imagePath,
     required this.isWhite,
-    });
+  });
 
   @override
   Widget build(BuildContext context) {

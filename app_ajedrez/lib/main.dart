@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-
-import 'game_board.dart';
+import 'package:app_ajedrez/game_board.dart';
 
 void main() {
   runApp(const MyApp());
@@ -9,11 +8,11 @@ void main() {
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
-
-  @override
+@override
   Widget build(BuildContext context) {
-    return MaterialApp(debugShowCheckedModeBanner: false,
-    home: Gameboard()
+    return const MaterialApp(
+      debugShowCheckedModeBanner: false,
+      home: GameBoard(),
     );
   }
 }
