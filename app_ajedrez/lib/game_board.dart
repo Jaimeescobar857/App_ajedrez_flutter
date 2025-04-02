@@ -4,6 +4,7 @@ import 'package:app_ajedrez/components/piece.dart';
 import 'package:app_ajedrez/components/square.dart';
 import 'package:app_ajedrez/helper/helper_methods.dart';
 import 'package:app_ajedrez/values/colors.dart';
+import 'package:app_ajedrez/values/turn_indicator.dart';
 import 'package:flutter/material.dart';
 
 import 'package:app_ajedrez/components/dead_piece.dart';
@@ -621,9 +622,12 @@ class _GameBoardState extends State<GameBoard> {
           //ESTADO DEL JUEGO
           Text(checkStatus ? "¡JAQUE!" : ""),
 
+          //indicador de puntos.
+          TurnIndicator(isWhiteTurn: isWhiteTurn),
+
           //TABLERO DE AJEDREZ
           Expanded(
-            flex: 180,
+            flex: 600,
             child: GridView.builder(
               //8 x 8 = 64 casillas
               itemCount: 8 * 8,
